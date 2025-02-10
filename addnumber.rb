@@ -6,7 +6,7 @@
 #negative numbers are taken care
 #if negative numbers then no sum computed 
 
-num_string="1@#59#2" #ARGV[0]
+num_string=ARGV[0]  # string
 num_pos=[] # to store all positive numbers in the string
 num_neg=[] # to store all negative numbers in the string
 
